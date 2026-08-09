@@ -1,7 +1,7 @@
 # Somnath–Dwarka Trip Planner
 
 A premium spiritual travel web app for your 7-day pilgrimage from Dubai to Somnath and Dwarka, Gujarat.
-Open [https://somnath-dwarka-trip.vercel.app/(Your Dubai to Somnath-Dwarka trip guide)]
+Open [https://somnath-dwarka-trip.vercel.app/]
 
 ## Features
 
