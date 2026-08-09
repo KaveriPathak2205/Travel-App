@@ -1,0 +1,17 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    uses: cr2007/actions/.github/workflows/gh-pages-deploy.yml@main
+    with:
+      build-command: GITHUB_PAGES=true nr build
